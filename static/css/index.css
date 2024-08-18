@@ -1,0 +1,92 @@
+.navbar {
+  padding-left: 140px;
+  padding-right: 70px;
+}
+
+.navbar .navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+
+/* Button Styles */
+.btn-signin {
+  background-color: #ff5733;  /* Orange background */
+  color: white;
+  border-radius: 0;
+  border: none;
+}
+
+.btn-signin:hover {
+  background-color: grey;  
+  color: white;
+}
+
+.btn-signup {
+  background-color: transparent;
+  color: #ff5733;
+  border-radius: 0; 
+  border: 2px solid #ff5733;
+}
+
+.btn-signup:hover {
+  background-color: grey;  
+  color: white;
+}
+
+/* Modal Styling */
+.modal-content {
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+.modal-header {
+  border-bottom: none;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  padding:30px;
+  justify-content: center; /* Centers the title horizontally */
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 24px; /* Increase the font size for better visibility */
+  text-align: center; /* Ensure text within the title is centered */
+  flex-grow: 1;
+}
+
+.modal-body {
+  padding-top: 0;
+}
+
+.input-group-text {
+  background-color: #f1f1f1; /* Light grey background */
+  color: grey; /* Icon color */
+  border: none;
+}
+
+.input-group .form-control {
+  background-color: #f1f1f1; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  padding: 10px; 
+}
+
+.input-group .form-control:focus {
+ 
+  box-shadow: none;
+}
+
+/* Sign In Button */
+.btn-orange {
+  background-color: #ff5733;
+  color: white;
+  border-radius: 0;
+  border: none;
+  padding: 10px 20px; 
+}
+
+.btn-orange:hover {
+  background-color: grey;
+  color: white;
+}
