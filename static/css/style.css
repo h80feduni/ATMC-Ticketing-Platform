@@ -101,3 +101,38 @@ body {
     margin-right: 20px;
     font-size: 18px;
 }
+
+
+
+
+
+
+/* view ticket  */
+
+.table-container {
+    margin-top: 20px;
+}
+.status-resolved {
+    background-color: #28a745;
+    color: white;
+}
+.status-open {
+    background-color: #ffc107;
+    color: black;
+}
+.status-new {
+    background-color: #dc3545;
+    color: white;
+}
+.status-closed {
+    background-color: #6c757d;
+    color: white;
+}
+.status-waiting {
+    background-color: #007bff;
+    color: white;
+}
+
+
+
+/* delete ticket  */
