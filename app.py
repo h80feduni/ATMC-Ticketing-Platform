@@ -16,6 +16,24 @@ def home():
 def login():
     return render_template('dashboard.html')
 
+# Define a route for the dashboard page 
+@app.route('/dashboard')
+def dashboard():
+    return render_template('dashboard.html')
+
+
+
+# Define a route for the view all ticket 
+@app.route('/viewticket')
+def viewticket():
+    return render_template('viewticket.html')
+
+
+@app.route('/deleteticket')
+def delete_ticket():
+    # ticket_id = request.form['ticket_id']
+   
+    return render_template('deleteticket.html')
 
 
 
