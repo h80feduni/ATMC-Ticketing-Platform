@@ -22,6 +22,9 @@ def dashboard():
     return render_template('dashboard.html')
 
 
+@app.route('/userdetails')
+def user_details():
+    return render_template('userdetails.html')
 
 # Define a route for the view all ticket 
 @app.route('/viewticket')
