@@ -38,6 +38,7 @@ body {
 
 .dropdown-item:hover {
     background-color: #3a5067;
+    color : #ff5733;
 }
 
 .dropdown-toggle::after {
